@@ -1,0 +1,109 @@
+@media screen and (max-width: 360px){
+    #productGrid>div{
+        width: 160px !important;
+        height: 320px;
+        position: relative;
+    }
+    #productGrid>div>img{
+        width: 158px !important;
+    }
+    .cardPrice{
+        position: absolute;
+        bottom: 15px !important;
+    }
+    .cardPrice>div>strike{
+        margin: 0 0 0 8px;
+    }
+
+}
+@media screen and (max-width: 575px){
+    .productGrid>div{
+        width: 180px !important;
+        position: relative;
+    }
+    .productGrid>div>img{
+        width: 180px !important;
+    }
+    .cardPrice{
+        position: absolute;
+        bottom: 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .container> #productGrid{
+        grid-template-columns: auto auto !important;
+    }
+    .row>div>.row>.productBinImg>img{
+        width: 350px !important;
+    }
+    .row>div>div>.productExtraImg{
+        display: flex;
+        align-items: center;
+    }
+    .row>div>div>.productExtraImg>img{
+        margin: 3px !important;
+        height: 80px !important;
+        width: 80px !important;
+    }
+
+}
+@media screen and (max-width: 991px){
+    .navbar-collapse-open>form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100% !important;
+    }
+    .navbar-collapse-open{
+        text-align: center;
+        padding: 10px !important;
+        border-radius: 5px;
+        box-shadow: -1px 1px 3px green;
+    }
+    .navbar-collapse-open>div{
+        display: block !important;
+        text-align: center !important;
+        padding-top: 9px;
+    }
+    #productGrid{
+        grid-template-columns: auto auto auto !important;
+    }
+    .row>.productBinImg>img{
+        width: 238px !important;
+    }
+    .row>.productExtraImg>img{
+        height: 56px !important;
+        width: 56px !important;
+        margin: 20px 0 0 0 !important;
+    }
+    .pageTitle{
+        font-size: 20px !important;
+        margin: 15px 0 7px 0;
+    }
+    .productKeyFeature>h5{
+        margin-top: 15px !important;
+    }
+    .productKeyFeature>span{
+        margin: 7px 0 0 !important;
+    }
+    div>.titleBelowItem > .infoLabel{
+        margin: 10px 0 0 0 !important;
+        display: inline-block !important;
+    }
+    div>.titleBelowItem{
+        margin-top: 0px !important;
+    }
+}
+@media screen and (max-width: 1199px){
+    .productGrid{
+        grid-template-columns: auto auto auto auto !important;
+    }
+    .productBinImg>img{
+         width: 340px !important;
+     }
+    .productExtraImg>img{
+        width: 73px !important;
+        height: 73px !important;
+    }
+
+}
